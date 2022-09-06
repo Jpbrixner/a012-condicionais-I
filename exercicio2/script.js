@@ -1,6 +1,6 @@
 //Escreva um código que receba três valores. Uma idade, um booleano que responda se a pessoa terminou ou não o ensino médio, e um booleano que responda se a pessoa está cursando alguma faculdade.
 
-let idade = prompt("Qual sua idade?");
+let idade = +prompt("Qual sua idade?");
 let isTerminouEnsinoMedio = confirm("Você terminou o Ensino Médio?");
 let isCursandoOutraFaculdade = confirm("Você está cursando faculdade?");
 
